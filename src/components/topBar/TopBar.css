@@ -1,0 +1,69 @@
+/* container for topBar */
+.top
+{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top:0;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+}
+/* logos and  userInfo*/
+.topLeft,.topRight
+{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* pages */
+.topCenter
+{
+    flex:6;
+    align-self: center;
+}
+/* icons class */
+.topIcon
+{
+    font-size: 20px;
+    margin: 10px;
+    color: #444;
+    cursor: pointer;
+}
+/* user image */
+.topImg
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit:cover ;
+    cursor: pointer;
+}
+/* navBarList */
+.topList
+{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* navBarItems */
+.topListItem
+{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 3000;
+    cursor: pointer;
+}
+/* search button */
+.topSearchIcon
+{
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 15px;
+}

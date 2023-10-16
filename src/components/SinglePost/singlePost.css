@@ -1,0 +1,121 @@
+/* container */
+.singlePost
+{
+    flex:9;
+}
+/* inner container */
+.singlePostWrapper
+{
+    padding: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+/* Image */
+.singlePostImg
+{
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+/* Title */
+.singlePostTitle
+{
+    text-align: center;
+    margin:10px ;
+    font-family: 'Lora', serif;
+    font-size: 28px;
+}
+/* update area */
+.singlePostEdit
+{
+    float: right;
+    font-size: 16px;
+
+}
+/* icons update delete */
+.singlePostIcons
+{
+    margin-left: 10px;;
+    cursor: pointer;
+
+}
+/* update icon */
+.singlePostIcons:first-child
+{
+    color: teal;
+}
+/* delete icon */
+.singlePostIcons:last-child
+{
+    color: tomato;
+    
+}
+/* user information */
+.singlePostInfo
+{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Varela', sans-serif;
+    color: #b39656;
+} 
+/* paragraph */
+.singlePostDesc
+{
+    color:#666;
+    font-size: 18px;
+    line-height: 25px;
+}
+/* first letter in the paragraph */
+.singlePostDesc::first-letter
+{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+/* editing input */
+.singlePostTitleInput
+{
+    text-align: center;
+    margin:10px ;
+    font-family: 'Lora', serif;
+    font-size: 28px;
+    border: none;
+    border-bottom: 1px solide lightgray;
+    color :gray;
+}
+/* focus in title editing */
+.singlePostTitleInput:focus
+{
+    outline: none;
+}
+/* editing paragraph */
+.singlePostDescInput
+{
+    border: none;
+    color:#666;
+    font-size: 18px;
+    line-height: 25px;
+}
+/* focus in editing paragraph */
+.singlePostDescInput:focus
+{
+    outline: none;
+}
+/* update button */
+.singlePostButton
+{
+    border: none;
+    background-color: teal;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 20px;
+}

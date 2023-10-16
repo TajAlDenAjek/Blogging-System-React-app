@@ -1,0 +1,118 @@
+/* settings page container */
+.settings
+{
+    display: flex;
+
+}
+/* settings inner container */
+.settingsWrapper
+{
+    flex: 9;
+    padding: 20px;
+}
+/* title container */
+.settingsTitle
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* update title */
+.settingUpdateTitle
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightcoral;
+}
+/* delete title */
+.settingDeleteTitle
+{
+    font-size: 12px;
+    cursor: pointer;
+    color: red;
+}
+/* settings form */
+.settingsForm
+{
+    display: flex;
+    flex-direction: column;
+}
+/* picture uploading container */
+.settingsPP
+{
+    display: flex;
+    align-items: center;
+    margin:10px 0;
+}
+/* picture showing */
+.settingsPP>img
+{
+    width: 70px;
+    height: 70px;
+    border-radius:20px ;
+    object-fit: cover;
+}
+/* button icon */
+.settingsPPIcon
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+/* form labels */
+.settingsForm >label
+{
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* form textareas */
+.settingsForm>input
+{
+    color: gray;
+    margin:10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+/* submit button for updating */
+.settingsSubmit
+{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    background: teal;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+/* delete button  */
+.deleteButton
+{
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: crimson;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+/* status message */
+.success
+{
+    color: green;
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 40%;
+    padding: 15px;
+    margin-top: 10px;
+}
